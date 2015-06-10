@@ -1,0 +1,40 @@
+{
+    "lookat_camera": { "from": [0,0.5,4] },
+    "surfaces": [
+        {
+            "frame": { "o": [1,-0.5,0.8] },
+            "radius":  0.5,
+            "material": { "kd": [0.7,0.5,0.5], "ks": [0.3,0.3,0.3], "n": 30,
+            "kd_txt":"models/black8_smal_bottoml.png" }
+        },
+        {
+            "frame": { "o": [-1,-0.5,-1.5] },
+            "radius":  0.5,
+            "material": { "kd": [1,1,1], "ks": [0.3,0.3,0.3], "n": 30,
+            "kd_txt":"models/red2l.png" }
+        },
+        {
+            "frame": { "o": [-2.5,-1,0], "x": [1,0,0], "y": [0,0,-1], "z": [1,0,0] },
+            "radius":  5, "isquad": true,
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100,
+            "normal_mapping":false,
+            "norm_txt":"models/brickwork_normal-map.png",
+            "ks_txt":"models/brickwork-bump-map.png",
+            "kd_txt":"models/brickwork-texture.png" }
+        },
+        {
+            "frame": { "o": [0,-1,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "radius":  3, "isquad": true,
+            "material": { "kd": [1,1,1],"kr": [0.5, 0.5, 0.5],"ks": [0,0,0],"n": 100}
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [4,12,5] }, "intensity": [60,60,60] }
+    ],
+    "background": [1,1,1],
+    "background_txt": "models/4.png",
+    "image_samples": 15,
+    "path_max_depth": 0,
+    "isBlurry": false,
+    "depth_of_field": false
+}

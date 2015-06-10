@@ -1,0 +1,10 @@
+{
+    "lookat_camera": { "from": [0,7,2]},
+    "json_meshes": "models/klein_bottle_2.json",
+    "lights": [
+        { "frame": { "o": [0,7,2] }, "intensity": [60,60,60] }
+    ],
+    "background": [0,0,0],
+    "image_samples": 15,
+    "path_max_depth": 2
+}
